@@ -1,0 +1,92 @@
+.App {
+    text-align: center;
+  }
+  .button {
+    margin: 20px;
+  }
+  .divs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .div-container {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  #div1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png");
+    background-size: cover;
+  }
+  /* table  */
+  table.customTable {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table.customTable thead {
+    background-color: #7EA8F8;
+  }
+  .testbutton {
+    font-family: arial;
+    font-weight: bold;
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 3px 4px 5px #BEE2F9;
+    padding: 11px 28px;
+    border-radius: 6px;
+    border: 0px solid #3866A3;
+    background: #63B8EE;
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+  }
+  .custom_input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.input {
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+}
+.input:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+}
+.input::placeholder {
+	color: #DDDDDD;
+}
